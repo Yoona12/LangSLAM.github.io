@@ -267,10 +267,10 @@
           <div class="content has-text-justified">
             <!-- img src="./static/images/head3.png" -->
             <p>
-              Experiments performed on synthetic and real-world datasets demonstrate that our method achieves competitive tracking and mapping
+              <font size="14">Experiments performed on synthetic and real-world datasets demonstrate that our method achieves competitive tracking and mapping
                performance while showing excellent capabilities in 3D dense semantic mapping compared with closed-set semantic SLAM. 
               Furthermore, our method exhibits its capabilities of open-set 3D scene reconstruction and language localization, demonstrating its robustness and flexibility in handling a wide range of
-             semantic categories.  </p>
+             semantic categories. </font>  </p>
           </div>
         </div>
       </div>
@@ -331,7 +331,7 @@
             <img src="./static/images/ablation on dimension.png">
             <p>Ablation study of effectiveness of vision-language features. We note that the effectiveness of the rendered semantic features and 
               the generalization capability of our model is highly dependent on dimension of semantic features, so we study how the dimension of semantic features affects the performance of semantic scene understanding.
-            As shown in Pic.8, when semantic feature dimension is 1, the mIOU is rather low since the low dimensional latent features are unable to sufficiently capture rich semantic information and they fail to accurately recognize objects in the scene. 
+            As shown in Fig.8, when semantic feature dimension is 1, the mIOU is rather low since the low dimensional latent features are unable to sufficiently capture rich semantic information and they fail to accurately recognize objects in the scene. 
             When the dimension is 3，the performance of semantic reconstruction significantly improves, as indicated by mIoU. This demonstrates that three dimensional latent features can effectively represent high-dimensional vision-language features. 
               With feature dimension increasing, the quality of 3D semantic reconstruction improves slightly; however, the storage memory required for the reconstructed semantic map increases significantly. 
               To balance semantic reconstruction performance with computational and storage efficiency, we choose a feature dimension of 3.</p>
